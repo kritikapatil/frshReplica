@@ -5,7 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 	<!-- Bootstrap CSS -->
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,36 +15,33 @@
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
-			height: 80vh;
+			height: 70vh;
 		}
 
 		.nav_clr{
-			background-color: rgba(0,0,0,0.4) !important;
+			background-color: rgba(0,0,0,0.5) !important;
 			margin-bottom: 0px;
 
 		}
 
-		.First_img{
-			background: url(./static/1.jpg) no-repeat center center; 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-			height: 80vh;
+/*		.Resp {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}*/
+ 
 
-
-		}
 	</style>
 </head>
 
-
-
-<!-- <div class="container-fluid" background image:url(./practice/static/food.jpeg></div> -->
 <body>
-
 	<nav class="navbar navbar-default nav_clr">
-		<div class="container-fluid ">
-
+	<div class="Resp">
+		<div class="container-fluid" >
+			
 		</div> 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -55,173 +51,276 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#" color="white">Frsh</a>
+			<a class="navbar-brand" href="#" style="color:#FEFEFE ; font-size:250%"><b>frsh</b></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
+			</ul>
 
-			</li>
-		</ul>
+			<ul class="nav navbar-nav navbar-right"  >
+				<li><a href="#" style="color:#FEFEFE"  >Login</a></li>
+				<li ><a href="#"  style="color:#FEFEFE">Sign up <span class="sr-only">(current)</span></a></li>
+				<li><a href="#"  style="color:#FEFEFE">Contact us</a></li>
 
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#">Login</a></li>
-			<li class="active"><a href="#">Sign up <span class="sr-only">(current)</span></a></li>
-			<li><a href="#">Contact us</a></li>
-		</li>
-	</ul>
-</div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+	</div>
 
-<!-- header section -->
-<div class="container-fluid image_outer" style="margin-top: -70px; ">
-	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-8 col-sm-offset-4">
-				<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
-					
-					<div style="border: 1px solid #aaa; padding: 15px; border-radius:5px; background-color: rgba(0,0,0,0.5); width: 400px; left: 0; right: 0; position: absolute;">
+	<!-- header section -->
+	<div class="container-fluid image_outer" style="margin-top: -70px; ">
+		<div class="container"> 
+			<div class="row" >
+				<div class="col-sm-8 col-sm-offset-4">
+					<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+						<div style="border: 1px solid #aaa; padding: 15px;  border-radius:15px; background-color: rgba(0,0,0,0.5); width: 320px;  left:0; right: 0; position: absolute;">
 
-						<div class="form-group" >
-							<input type="text" class="form-control" align="center" style="margin-top: 40px; padding:7px" placeholder="select city">
+							<div class="form-group"  >
+								<select class="form-control" style="margin-top:18px;height:40px">
+									<option value="Select city">select city</option>
+									<option value="saab">Saab</option>
+									<option value="mercedes">Mercedes</option>
+									<option value="audi">Audi</option>
+								</select> 
+							</div>
+
+
+							<div class="form-group" >
+								<input type="text" class="form-control" align="center" style="margin-top: 20px; height:40px" placeholder="Enter Locality">
+							</div>
+
+							<button  type="submit" class="btn btn-danger" style="width: 100%;background-color:#FC6500; margin-bottom:18px;height:40px" >Go To Food Menu</button>
 						</div>
-
-
-						<div class="form-group" >
-							<input type="text" class="form-control" align="center" style="margin-top: 20px;" placeholder="Enter Locality">
-						</div>
-
-						<button  type="submit" class="btn btn-danger" >Go To Food Menu</button>
-						<!-- </form>             -->
-
-						<!-- <img src="./static/food.jpg" alt=""> -->
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
-</div>
 
-<div class="container-fluid">
-	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-12">
-				<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 370px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
-					<b>EASIEST WAY TO ORDER FOOD!</b>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="container-fluid">
-	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-12">
-				<div  style="max-width:900px;  margin:auto; margin-top:1% margin-left: 100px; margin-right:10px; font-weight:50; font-size:20px;">
-					<b>frsh</b> delivers healthy and freshly-prepared salads, sandwiches, and juices to your doorstep
-
+	<div class="container-fluid">
+		<div class="container"> 
+			<div class="row" >
+				<div class="col-sm-12">
+					<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 370px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
+						<b>EASIEST WAY TO ORDER FOOD!</b>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-
-<div class="container-fluid ">
-	<div class="container"> 
-		<div class="row" style="margin-top:5%">
-			<div class="col-sm-5 col-sm-offset-1">
-				<img src="./static/1.jpeg" alt="" style="width:100%">
-				<div  style="max-width:150px;  margin:auto; margin-left:30%; margin-top: 10%">
-				</div>
-			</div>
-			<div class="col-sm-5  ">
-				<img src="./static/2.jpeg" alt="" style="width:100%">
-				<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+	<div class="container-fluid">
+		<div class="container"> 
+			<div class="row" >
+				<div class="col-sm-12">
+					<div  style="max-width:900px;  margin:auto; margin-top:1% margin-left: 100px; margin-right:10px; font-weight:50; font-size:20px;">
+						<b>frsh</b> delivers healthy and freshly-prepared salads, sandwiches, and juices to your doorstep
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
-<div class="container-fluid ">
-	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-5  col-sm-offset-1">
-				<img src="./static/3.jpeg" alt="" style="width:100%">
-				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%">
+	<div class="container-fluid ">
+		<div class="container"> 
+			<div class="row" style="margin-top:5%">
+				<div class="col-sm-5 col-sm-offset-1">
+					<img src="./static/1.jpeg" alt="" style="width:100%">
+						<div  style="max-width:150px;  margin:auto; margin-left:30%; margin-top: 10%">
+						</div>
 				</div>
-			</div>
-			<div class="col-sm-5 ">
-				<img src="./static/4.jpeg" alt="" style="width:100%">
-				<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<div class="container-fluid ">
-	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-5 col-sm-offset-1">
-				<img src="./static/5.jpeg" alt="" style="width:100%">
-				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%">
-				</div>
-			</div>
-			<div class="col-sm-5 ">
-				<img src="./static/6.jpeg" alt="" style="width:100%">
-				<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+				<div class="col-sm-5  ">
+					<img src="./static/2.jpeg" alt="" style="width:100%">
+					<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div class="container-fluid"  style="background-color:#ECECEC;">
-	<div class="container"> 
-		<div class="row" >
-			<!-- <div class="col-sm-12"> -->
 
-			<div class="col-sm-2 ">
-				<img src="./static/7.png" alt="" style="width:100%">
-				<div  style="max-width:150px;  margin:auto; margin-left:30%; margin-top:5%">
+	<div class="container-fluid ">
+		<div class="container"> 
+			<div class="row" >
+				<div class="col-sm-5  col-sm-offset-1">
+					<img src="./static/3.jpeg" alt="" style="width:100%">
+					<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%">
+					</div>
+				</div>
+				<div class="col-sm-5 ">
+					<img src="./static/4.jpeg" alt="" style="width:100%">
+					<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
 
+	<div class="container-fluid ">
+		<div class="container"> 
+			<div class="row" >
+				<div class="col-sm-5 col-sm-offset-1">
+					<img src="./static/5.jpeg" alt="" style="width:100%">
+					<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%">
+					</div>
+				</div>
+				<div class="col-sm-5 ">
+					<img src="./static/6.jpeg" alt="" style="width:100%">
+					<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-			
+	<div class="container-fluid"  style="background-color:#ECECEC;">
+		<div class="container"> 
+			<div class="row" >
+				<!-- <div class="col-sm-12"> -->
 
+				<div class="col-sm-2 ">
+					<img src="./static/7.png" alt="" style="width:100%">
+					<div  style="max-width:150px;  margin:auto; margin-left:30%; margin-top:5%">
+					</div>
+				</div>
 				<div class="col-sm-6 col-sm-offset-2">
-			<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 10px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
-				<strong>HEALTHY BASE OF A SALAD</strong><br>
-				<div style="font-size:15px">
-					<p>Quit eating junk food and high-fat fast food. Your heart, brain, and overall health are harmed by foods high in saturated fats, salt, and cholesterol. There's no getting around it. You've got to replace them with healthy foods: lots of fruits, vegetables, fish, nuts, olive oil</p>
-					</div>	
-				</div>			
-			</div>
-
-			<div class="col-sm-2 ">
-				<img src="./static/8.png" alt="" style="width:100%">
-				<div  style="max-width: 150px;  margin:auto; margin-left:150px; margin-top: 10%"
+					<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 10px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
+						<strong>HEALTHY BASE OF A SALAD</strong><br>
+						<div style="font-size:15px">
+							<p>Quit eating junk food and high-fat fast food. Your heart, brain, and overall health are harmed by foods high in saturated fats, salt, and cholesterol. There's no getting around it. You've got to replace them with healthy foods: lots of fruits, vegetables, fish, nuts, olive oil</p>
+						</div>	
+					</div>			
 				</div>
-			</div>	
 
-
-
-
-
-
-
+				<div class="col-sm-2 ">
+					<img src="./static/8.png" alt="" style="width:100%">
+					<div  style="max-width: 150px;  margin:auto; margin-left:150px; margin-top: 10%"
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
+</div>
+
+
+
+<div class="container-fluid ">
+	<div class="container"> 
+		<div class="row" >
+			<div class="col-sm-6 ">
+				
+				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%"><p>At FRSH, you experience a whole new meaning of <b>healthy food</b>. Be it our<b> contamination free</b> Gourmet Australian Flour Bread or<b> RO</b> water washed Green leafy Lettuce and Vegetables, all our ingredients are <b>FICCI</b> approved. We use <b>low fat mayonnaise</b> in our sandwiches and add <b>no preservatives</b> or artificial sugar in our Juices! </p>
+
+				</div>
+			</div>
+				<div class="col-sm-3">
+					<img src="./static/10.png" alt="" style="width:100%">
+					<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: 5%">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid ">
+	<div class="container"> 
+		<div class="row"  >
+			<div class="col-sm-3 col-sm-offset-1">
+				<img src="./static/9.png" alt="" style="width:100%">
+				<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: 3%">
+				</div>
+			</div>
+			<div class="col-sm-5 col-sm-offset-1">
+				
+				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 14%"></div><p>
+				Prepare yourself for <b>world class</b> customer and delivery service. At FRSH, we use leak proof and ergonomic packaging ensuring the safety and health of our valuable customers. We value your <b>feedback</b> above anything else. </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid ">
+	<div class="container"> 
+		<div class="row"  >
+			<div class="col-sm-5 ">
+				
+				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 14%">
+					We belive in providing <b>hassle free</b> ordering procedure where our customers can order food using our easy to use website, Android app and Apple IOS app from their offices and homes. It takes <b>less than 30 seconds to order</b>. Give it a try!
+				</div>
+			</div>
+			<div class="col-sm-3 col-sm-offset-1">
+				<img src="./static/11.png" alt="" style="width:100%">
+				<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: -30%">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="margin-top:100px; background-color:#ECECEC">
+	<div class="container"> 
+		<div class="row ">
+			<div class="col-sm-8 col-sm-offset-3  ">
+			<div  style="font-size:18px ">Order From Anywhere! Download our Mobile app from Apple Store and   Google play <center>store</center>
+				</div>
+			</div>
+			<div class="col-sm-2 col-sm-offset-4 ">
+				<img src="static/12.png" alt="" style="width:100%">
+				<div>
+				</div>
+			</div>
+
+			<div class="col-sm-2  ">
+				<img src="static/13.png" alt="" style="width:100%">
+				<div>
+				</div>
+			</div>
+		
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="container-fluid" style="margin-top:10px; background-color:#232323">
+	<div class="container"> 
+		<div class="row ">
+			<div class="col-sm-5 ">
+				<div  style="font-size:40px ;color:#FEFEFE"><p><span>frsh</span><span style="font-size:14px">About Us | FAQ | Blog | Policies and Terms | Follow us</span></p>
+				<!-- <div><img src="static/fb.png" alt="" style="width:20px;"> </div> -->
+				
+				</div>
+
+			</div>
+				
+			 <div class="col-sm-1 ">  
+				 <img src="static/fb.png" alt="" style="width:20px;margin-top:30px;"> 
+				
+			</div> 
+
+			 <div class="col-sm-1  "> 
+				<img src="static/t.png" alt="" style="width:20px;margin-top:30px">
+			</div> 
+			
+
+			<div class="col-sm-2  "> 
+		
+		<div  style="font-size:14px ;color:#FEFEFE;margin-top:30px;">Download App</div>
+		</div>
+						
+
+
+
+
+		
+		</div>
+	</div>
 </div>
 
 
