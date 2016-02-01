@@ -24,7 +24,41 @@
 
 		}
 
-/*		.Resp {
+		.form_holder{
+			padding: 10px; background-color: rgba(0,0,0,0.5);
+		}
+
+		@media screen and (max-width: 768px){
+			.text_scale{
+				color: red;
+				font-size: 3em !important;
+			}
+		}
+
+		@media screen and (min-width: 768px){
+			.text_scale{
+				color: blue;
+				font-size: 1.1em !important;
+			}
+		}
+
+ 
+
+
+/*		 body{
+              font-size:2em;
+               }
+
+              @media only screen and (max-width: 768px) {
+        
+                body{
+                       font-size:1em;
+                    }
+       
+                 }*/
+        
+/*
+		.Resp {
     float: left;
     margin: 5px;
     padding: 15px;
@@ -39,7 +73,7 @@
 
 <body>
 	<nav class="navbar navbar-default nav_clr">
-	<div class="Resp">
+
 		<div class="container-fluid" >
 			
 		</div> 
@@ -73,12 +107,12 @@
 	<div class="container-fluid image_outer" style="margin-top: -70px; ">
 		<div class="container"> 
 			<div class="row" >
-				<div class="col-sm-8 col-sm-offset-4">
-					<div  style="max-width: 800px;  margin:auto; margin-left:30%; margin-top: 10%">
-						<div style="border: 1px solid #aaa; padding: 15px;  border-radius:15px; background-color: rgba(0,0,0,0.5); width: 320px;  left:0; right: 0; position: absolute;">
-
-							<div class="form-group"  >
-								<select class="form-control" style="margin-top:18px;height:40px">
+				<div class="col-sm-4 col-sm-offset-4" style="margin-top: 25vh">
+					
+					<div class="form_holder" style="border-radius:15px">
+					 	<div class="form-group"  >
+						
+						<select class="form-control" style="margin-top:18px;height:40px">
 									<option value="Select city">select city</option>
 									<option value="saab">Saab</option>
 									<option value="mercedes">Mercedes</option>
@@ -92,37 +126,31 @@
 							</div>
 
 							<button  type="submit" class="btn btn-danger" style="width: 100%;background-color:#FC6500; margin-bottom:18px;height:40px" >Go To Food Menu</button>
-						</div>
-					</div>
+					 </div>
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 	<div class="container-fluid">
 		<div class="container"> 
 			<div class="row" >
-				<div class="col-sm-12">
-					<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 370px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
-						<b>EASIEST WAY TO ORDER FOOD!</b>
-					</div>
+				<div class="col-sm-12  style=visibility: hidden  ">
+					<p class="text_scale">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cupiditate, libero nam vitae maiores nisi assumenda. Incidunt, alias culpa est odit delectus. Saepe tenetur atque odit voluptate, dolorem iure ipsam.</p>
+					<h5 style="text-align: center">EASIEST WAY TO ORDER FOOD!</h5>
+					<p style="text-align: center;">
+						<b>frsh</b> delivers healthy and freshly-prepared salads, sandwiches, and juices to your doorstep					
+					</p>
+
+					 
 				</div>
 			</div>
 		</div>
 	</div>
+	
 
-	<div class="container-fluid">
-		<div class="container"> 
-			<div class="row" >
-				<div class="col-sm-12">
-					<div  style="max-width:900px;  margin:auto; margin-top:1% margin-left: 100px; margin-right:10px; font-weight:50; font-size:20px;">
-						<b>frsh</b> delivers healthy and freshly-prepared salads, sandwiches, and juices to your doorstep
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+ 
 
 	<div class="container-fluid ">
 		<div class="container"> 
@@ -182,21 +210,21 @@
 			<div class="row" >
 				<!-- <div class="col-sm-12"> -->
 
-				<div class="col-sm-2 ">
+				<div class="col-sm-2  style=visibility: hidden " >
 					<img src="./static/7.png" alt="" style="width:100%">
 					<div  style="max-width:150px;  margin:auto; margin-left:30%; margin-top:5%">
 					</div>
 				</div>
-				<div class="col-sm-6 col-sm-offset-2">
+				<div class="col-sm-6 col-sm-offset-2  ">
 					<div  style="max-width: 400px;  margin:auto; margin-top:1%; margin-left: 10px; margin-right: 10px; font-size:20px; font-weight: 50; font-family: Allura" >
 						<strong>HEALTHY BASE OF A SALAD</strong><br>
-						<div style="font-size:15px">
+						<div style="font-size:15px ">
 							<p>Quit eating junk food and high-fat fast food. Your heart, brain, and overall health are harmed by foods high in saturated fats, salt, and cholesterol. There's no getting around it. You've got to replace them with healthy foods: lots of fruits, vegetables, fish, nuts, olive oil</p>
 						</div>	
 					</div>			
 				</div>
 
-				<div class="col-sm-2 ">
+				<div class="col-sm-2  style=visibility: hidden">
 					<img src="./static/8.png" alt="" style="width:100%">
 					<div  style="max-width: 150px;  margin:auto; margin-left:150px; margin-top: 10%"
 				</div>
@@ -210,14 +238,14 @@
 
 <div class="container-fluid ">
 	<div class="container"> 
-		<div class="row" >
-			<div class="col-sm-6 ">
+		<div class="row   style=visibility: hidden  margin-top: 10%" >
+			<div class="col-sm-6 style=visibility: hidden ">
 				
 				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 10%"><p>At FRSH, you experience a whole new meaning of <b>healthy food</b>. Be it our<b> contamination free</b> Gourmet Australian Flour Bread or<b> RO</b> water washed Green leafy Lettuce and Vegetables, all our ingredients are <b>FICCI</b> approved. We use <b>low fat mayonnaise</b> in our sandwiches and add <b>no preservatives</b> or artificial sugar in our Juices! </p>
 
 				</div>
 			</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="visibility: hidden">
 					<img src="./static/10.png" alt="" style="width:100%">
 					<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: 5%">
 				</div>
@@ -229,12 +257,12 @@
 <div class="container-fluid ">
 	<div class="container"> 
 		<div class="row"  >
-			<div class="col-sm-3 col-sm-offset-1">
+			<div class="col-sm-3 col-sm-offset-1  style=visibility: hidden">
 				<img src="./static/9.png" alt="" style="width:100%">
 				<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: 3%">
 				</div>
 			</div>
-			<div class="col-sm-5 col-sm-offset-1">
+			<div class="col-sm-5 col-sm-offset-1  style=visibility: hidden">
 				
 				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 14%"></div><p>
 				Prepare yourself for <b>world class</b> customer and delivery service. At FRSH, we use leak proof and ergonomic packaging ensuring the safety and health of our valuable customers. We value your <b>feedback</b> above anything else. </p>
@@ -245,14 +273,14 @@
 
 <div class="container-fluid ">
 	<div class="container"> 
-		<div class="row"  >
-			<div class="col-sm-5 ">
+		<div class="row style=visibility: hidden ">
+			<div class="col-sm-5  style=visibility: hidden">
 				
 				<div  style="max-width: 300px;  margin:auto; margin-left:30%; margin-top: 14%">
 					We belive in providing <b>hassle free</b> ordering procedure where our customers can order food using our easy to use website, Android app and Apple IOS app from their offices and homes. It takes <b>less than 30 seconds to order</b>. Give it a try!
 				</div>
 			</div>
-			<div class="col-sm-3 col-sm-offset-1">
+			<div class="col-sm-3 col-sm-offset-1  style=visibility: hidden">
 				<img src="./static/11.png" alt="" style="width:100%">
 				<div  style="max-width: 400px;  margin:auto; margin-left:30%; margin-top: -30%">
 				</div>
@@ -261,21 +289,21 @@
 	</div>
 </div>
 
-<div class="container-fluid" style="margin-top:100px; background-color:#ECECEC">
+<div class="container-fluid" style="margin-top:50px; background-color:#ECECEC">
 	<div class="container"> 
-		<div class="row ">
+		<div class="row   ">
 			<div class="col-sm-8 col-sm-offset-3  ">
-			<div  style="font-size:18px ">Order From Anywhere! Download our Mobile app from Apple Store and   Google play <center>store</center>
+			<div  style="font-size:18px  text-align: center">Order From Anywhere! Download our Mobile app from Apple Store and   Google play store
 				</div>
 			</div>
-			<div class="col-sm-2 col-sm-offset-4 ">
-				<img src="static/12.png" alt="" style="width:100%">
+			<div class="col-md-1  ">
+				<img src="static/12.png" alt="" style=" width:50% ;height=50%;transform: translate(45%, 10%) ">
 				<div>
 				</div>
 			</div>
 
-			<div class="col-sm-2  ">
-				<img src="static/13.png" alt="" style="width:100%">
+			<div class="col-md-1  ">
+				<img src="static/13.png" alt="" style="width:50%;height=50%;transform: translate(45%, 10%) ">
 				<div>
 				</div>
 			</div>
@@ -291,22 +319,25 @@
 <div class="container-fluid" style="margin-top:10px; background-color:#232323">
 	<div class="container"> 
 		<div class="row ">
-			<div class="col-sm-5 ">
-				<div  style="font-size:40px ;color:#FEFEFE"><p><span>frsh</span><span style="font-size:14px">About Us | FAQ | Blog | Policies and Terms | Follow us</span></p>
+			<div class="   col-xs-12 ">
+				<div  style="font-size:10px;margin-top:15px ;color:#FEFEFE"><p><span style="visibility:hidden">frsh</span><caption style="text-align:left">About | FAQ | Blog | Policies and Terms </caption>
 				<!-- <div><img src="static/fb.png" alt="" style="width:20px;"> </div> -->
 				
 				</div>
 
 			</div>
 				
-			 <div class="col-sm-1 ">  
-				 <img src="static/fb.png" alt="" style="width:20px;margin-top:30px;"> 
-				
-			</div> 
+			  <div class="col-sm-1 ">  
+				 <img src="static/fb.png" alt="" style="width:20px;margin-top:10px;margin-left:50px"> 
 
-			 <div class="col-sm-1  "> 
-				<img src="static/t.png" alt="" style="width:20px;margin-top:30px">
+				  <div class="col-sm-1  "> 
+				<img src="static/t.png" alt="" style="width:20px;margin-top:-40px;margin-left:70px">
 			</div> 
+			
+				
+			</div>
+
+
 			
 
 			<div class="col-sm-2  "> 
